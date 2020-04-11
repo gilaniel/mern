@@ -1,0 +1,5 @@
+{
+  "port": 2280,
+  "mongoUri": "mongodb+srv://gila:GIzulofO2016@cluster0-388qz.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "fuckyourself"
+}
