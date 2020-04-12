@@ -54,6 +54,7 @@ export const Auth = () => {
                   type="text" 
                   name="email"
                   className="validate" 
+                  value={form.email}
                   onChange={changeHandler}/>
                 <label htmlFor="email" className="white-text">Email</label>
               </div>
@@ -64,6 +65,7 @@ export const Auth = () => {
                   type="password" 
                   name="password" 
                   className="validate" 
+                  value={form.password}
                   onChange={changeHandler} />
                 <label htmlFor="email" className="white-text">Password</label>
               </div>
